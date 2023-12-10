@@ -1,0 +1,48 @@
+.account-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    justify-content: center;
+  }
+ 
+  .account-detail-list {
+    padding: 10px 30px;
+  }
+  .account-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .acct-info {
+    color: #75797a;
+    font-size: 14px;
+    text-align: center;
+  }
+  .account-item p {
+    margin: 5px 0;
+    cursor: pointer;
+  }
+   .currency {
+    font-weight: bold;
+    }
+    
+  .account-item button {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .account-item button:hover {
+    background-color: #2980b9;
+  }
+  
+  .account-item button.selected {
+    background-color: #27ae60;
+  }
+  

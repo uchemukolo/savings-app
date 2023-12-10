@@ -1,0 +1,138 @@
+.selected-account-details {
+  border-top: 1px solid #ccc ;
+
+}
+.goals-details-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+  padding: 0px 40px 30px 0px;
+ 
+}
+.goals-details {
+  background-color: #f2f2f2;
+  padding: 0px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px rgb(75 72 72 / 10%);
+}
+.transfer-button {
+  margin-bottom: 30px;
+  width: 200px;
+    height: max-content;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.success {
+  color: green;
+}
+.Modal {
+  position: absolute;
+  inset: 150px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 10px;
+  outline: aliceblue;
+  padding: 50px;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+ text-align: center;
+}
+.Overlay {
+  position: fixed;
+  inset: 0px;
+  background-color: #a2a1a1bf;
+}
+.error {
+  color: red;
+}
+.close-wrapper {
+  text-align: right;
+  cursor: pointer;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: #e1dcdc;
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+  border: none;
+
+}
+.goal-info {
+  color: #75797a;
+  font-size: 14px;
+}
+.round-up-amount-display {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.buttons {
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  width: max-content;
+    height: max-content;
+    font-size: 16px;
+    font-weight: 800;
+}
+.button-container {
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.transaction-table {
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 20px;
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transaction-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    height: 30px street;
+  }
+  .input-label {
+    font-size: 14px;
+    color: #606262;
+    margin-bottom: 10px;
+  }
+  .input-field {
+    height: 30px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
